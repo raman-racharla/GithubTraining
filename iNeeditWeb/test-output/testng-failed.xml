@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [iNeeditWeb Automation]">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ineeditweb.testcases.RequestPopupTest">
+        <methods>
+          <include name="requestPopupTest"/>
+        </methods>
+      </class> <!-- com.ineeditweb.testcases.RequestPopupTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [iNeeditWeb Automation] -->

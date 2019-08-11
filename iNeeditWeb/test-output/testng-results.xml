@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="iNeeditWeb Automation" duration-ms="39437" started-at="2019-07-09T12:42:44Z" finished-at="2019-07-09T12:43:23Z">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.homePageTest()[pri:0, instance:com.ineeditweb.testcases.HomePageTest@457e2f02]" name="homePageTest" class="com.ineeditweb.testcases.HomePageTest"/>
+        <method signature="LocationPageTest.locationPageTest()[pri:0, instance:com.ineeditweb.testcases.LocationPageTest@39aeed2f]" name="locationPageTest" class="com.ineeditweb.testcases.LocationPageTest"/>
+        <method signature="LoginPopupTest.loginPopupTest()[pri:0, instance:com.ineeditweb.testcases.LoginPopupTest@4cc0edeb]" name="loginPopupTest" class="com.ineeditweb.testcases.LoginPopupTest"/>
+        <method signature="RoutingMenuPageTest.routingMenuPageTest()[pri:0, instance:com.ineeditweb.testcases.RoutingMenuPageTest@5c7fa833]" name="routingMenuPageTest" class="com.ineeditweb.testcases.RoutingMenuPageTest"/>
+        <method signature="SubmitRequestPageTest.submitRequestPageTest()[pri:0, instance:com.ineeditweb.testcases.SubmitRequestPageTest@724af044]" name="submitRequestPageTest" class="com.ineeditweb.testcases.SubmitRequestPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="RegressionTests" duration-ms="39437" started-at="2019-07-09T12:42:44Z" finished-at="2019-07-09T12:43:23Z">
+      <class name="com.ineeditweb.testcases.LocationPageTest">
+        <test-method status="PASS" signature="locationPageTest()[pri:0, instance:com.ineeditweb.testcases.LocationPageTest@39aeed2f]" name="locationPageTest" duration-ms="6679" started-at="2019-07-09T12:43:15Z" finished-at="2019-07-09T12:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationPageTest -->
+      </class> <!-- com.ineeditweb.testcases.LocationPageTest -->
+      <class name="com.ineeditweb.testcases.SubmitRequestPageTest">
+        <test-method status="PASS" signature="submitRequestPageTest()[pri:0, instance:com.ineeditweb.testcases.SubmitRequestPageTest@724af044]" name="submitRequestPageTest" duration-ms="917" started-at="2019-07-09T12:43:22Z" finished-at="2019-07-09T12:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitRequestPageTest -->
+      </class> <!-- com.ineeditweb.testcases.SubmitRequestPageTest -->
+      <class name="com.ineeditweb.testcases.LoginPopupTest">
+        <test-method status="PASS" signature="loginPopupTest()[pri:0, instance:com.ineeditweb.testcases.LoginPopupTest@4cc0edeb]" name="loginPopupTest" duration-ms="21204" started-at="2019-07-09T12:42:44Z" finished-at="2019-07-09T12:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopupTest -->
+      </class> <!-- com.ineeditweb.testcases.LoginPopupTest -->
+      <class name="com.ineeditweb.testcases.HomePageTest">
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:com.ineeditweb.testcases.HomePageTest@457e2f02]" name="homePageTest" duration-ms="3222" started-at="2019-07-09T12:43:05Z" finished-at="2019-07-09T12:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+      </class> <!-- com.ineeditweb.testcases.HomePageTest -->
+      <class name="com.ineeditweb.testcases.RoutingMenuPageTest">
+        <test-method status="PASS" signature="routingMenuPageTest()[pri:0, instance:com.ineeditweb.testcases.RoutingMenuPageTest@5c7fa833]" name="routingMenuPageTest" duration-ms="7355" started-at="2019-07-09T12:43:08Z" finished-at="2019-07-09T12:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- routingMenuPageTest -->
+      </class> <!-- com.ineeditweb.testcases.RoutingMenuPageTest -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- iNeeditWeb Automation -->
+</testng-results>

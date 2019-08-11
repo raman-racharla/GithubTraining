@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-iNeeditWeb_Automation">
+              <span class="suite-name border-passed">iNeeditWeb Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-iNeeditWeb_Automation">
+                    <span>C:\Selenium\eclipse-workspace\iNeeditWeb\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-iNeeditWeb_Automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-iNeeditWeb_Automation">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-iNeeditWeb_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-iNeeditWeb_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-iNeeditWeb_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-iNeeditWeb_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-iNeeditWeb_Automation" class="hide-methods passed suite-iNeeditWeb_Automation"> (hide)</a> <!-- hide-methods passed suite-iNeeditWeb_Automation -->
+                      <a href="#" panel-name="suite-iNeeditWeb_Automation" class="show-methods passed suite-iNeeditWeb_Automation"> (show)</a> <!-- show-methods passed suite-iNeeditWeb_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-iNeeditWeb_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iNeeditWeb_Automation" title="com.ineeditweb.testcases.HomePageTest" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iNeeditWeb_Automation" title="com.ineeditweb.testcases.LocationPageTest" hash-for-method="locationPageTest">locationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iNeeditWeb_Automation" title="com.ineeditweb.testcases.LoginPopupTest" hash-for-method="loginPopupTest">loginPopupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iNeeditWeb_Automation" title="com.ineeditweb.testcases.RoutingMenuPageTest" hash-for-method="routingMenuPageTest">routingMenuPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-iNeeditWeb_Automation" title="com.ineeditweb.testcases.SubmitRequestPageTest" hash-for-method="submitRequestPageTest">submitRequestPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-iNeeditWeb_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-iNeeditWeb_Automation" class="panel iNeeditWeb_Automation">
+          <div class="suite-iNeeditWeb_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ineeditweb.testcases.RoutingMenuPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="routingMenuPageTest">
+                  </a> <!-- routingMenuPageTest -->
+                  <span class="method-name">routingMenuPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iNeeditWeb_Automation-class-passed -->
+          <div class="suite-iNeeditWeb_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ineeditweb.testcases.LoginPopupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopupTest">
+                  </a> <!-- loginPopupTest -->
+                  <span class="method-name">loginPopupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iNeeditWeb_Automation-class-passed -->
+          <div class="suite-iNeeditWeb_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ineeditweb.testcases.LocationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="locationPageTest">
+                  </a> <!-- locationPageTest -->
+                  <span class="method-name">locationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iNeeditWeb_Automation-class-passed -->
+          <div class="suite-iNeeditWeb_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ineeditweb.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTest">
+                  </a> <!-- homePageTest -->
+                  <span class="method-name">homePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iNeeditWeb_Automation-class-passed -->
+          <div class="suite-iNeeditWeb_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ineeditweb.testcases.SubmitRequestPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitRequestPageTest">
+                  </a> <!-- submitRequestPageTest -->
+                  <span class="method-name">submitRequestPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-iNeeditWeb_Automation-class-passed -->
+        </div> <!-- panel iNeeditWeb_Automation -->
+        <div panel-name="test-xml-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\eclipse-workspace\iNeeditWeb\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;iNeeditWeb Automation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegressionTests&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.LoginPopupTest&quot;/&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.RoutingMenuPageTest&quot;/&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.LocationPageTest&quot;/&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.SubmitRequestPageTest&quot;/&gt;
+      &lt;class name=&quot;com.ineeditweb.testcases.RequestPopupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionTests --&gt;
+&lt;/suite&gt; &lt;!-- iNeeditWeb Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for iNeeditWeb Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegressionTests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for iNeeditWeb Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">locationPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginPopupTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">routingMenuPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">submitRequestPageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for iNeeditWeb Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_iNeeditWeb_Automation');
+function tableData_iNeeditWeb_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPopupTest')
+data.setCell(0, 2, 'com.ineeditweb.testcases.LoginPopupTest')
+data.setCell(0, 3, 21204);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'routingMenuPageTest')
+data.setCell(1, 2, 'com.ineeditweb.testcases.RoutingMenuPageTest')
+data.setCell(1, 3, 7355);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'locationPageTest')
+data.setCell(2, 2, 'com.ineeditweb.testcases.LocationPageTest')
+data.setCell(2, 3, 6679);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homePageTest')
+data.setCell(3, 2, 'com.ineeditweb.testcases.HomePageTest')
+data.setCell(3, 3, 3222);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'submitRequestPageTest')
+data.setCell(4, 2, 'com.ineeditweb.testcases.SubmitRequestPageTest')
+data.setCell(4, 3, 917);
+window.suiteTableData['iNeeditWeb_Automation']= { tableData: data, tableDiv: 'times-div-iNeeditWeb_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-iNeeditWeb_Automation">
+              </div> <!-- times-div-iNeeditWeb_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for iNeeditWeb Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ineeditweb.testcases.RequestPopupTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">requestPopupTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-iNeeditWeb_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ineeditweb.testcases.LoginPopupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPopupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ineeditweb.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageTest</span>
+                <span class="method-start">21211 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ineeditweb.testcases.RoutingMenuPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">routingMenuPageTest</span>
+                <span class="method-start">24439 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ineeditweb.testcases.LocationPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">locationPageTest</span>
+                <span class="method-start">31797 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ineeditweb.testcases.SubmitRequestPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">submitRequestPageTest</span>
+                <span class="method-start">38478 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

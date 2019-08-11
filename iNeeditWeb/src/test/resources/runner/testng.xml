@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iNeeditWeb Automation">
+
+  <test name="RegressionTests">
+  <groups>
+         <run>
+            <include name = "regression" />
+         </run>
+      </groups>
+  
+    <classes>
+      <class name="com.ineeditweb.testcases.LoginPopupTest"/> 
+      <class name="com.ineeditweb.testcases.HomePageTest"/>  
+      <class name="com.ineeditweb.testcases.RoutingMenuPageTest"/>  
+      <class name="com.ineeditweb.testcases.LocationPageTest"/>  
+      <class name="com.ineeditweb.testcases.SubmitRequestPageTest"/> 
+      <class name="com.ineeditweb.testcases.RequestPopupTest"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
